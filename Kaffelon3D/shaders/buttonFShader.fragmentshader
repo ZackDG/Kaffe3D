@@ -1,0 +1,9 @@
+#version 330 core
+out vec4 color;
+
+uniform vec4 ButtonColor;
+void main(){
+  //color = vec3(ButtonColor.x, ButtonColor.y, ButtonColor.z);
+    color = ButtonColor;
+    //color = vec4(ButtonColor.x, ButtonColor.y, ButtonColor.z, 1.0f);
+}

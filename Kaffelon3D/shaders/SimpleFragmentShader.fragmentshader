@@ -1,0 +1,55 @@
+#version 330 core
+
+// Ouput data
+//out vec4 color;
+layout (location = 0) out vec4 color;
+
+in vec2 UV;
+in vec3 Normal_cameraspace;
+in vec3 LightPosition_worldspace;
+in vec3 Position_worldspace;
+in vec3 LightDirection_cameraspace[16];
+in vec4 position;
+
+//Values that stay constant for the whole mesh.
+uniform sampler2D myTextureSampler;
+uniform vec3 LightColor[16];
+uniform float LightPower[16];
+uniform vec3 LightPosition[16];
+
+void main()
+{
+	// Normal of the computed fragment, in camera space
+	 vec3 n = normalize( Normal_cameraspace );
+	 // Direction of the light (from the fragment to the light)
+
+	 vec3 l[16];
+	 float cosTheta[16];
+	 vec3 distanceVector[16];
+	 float distance[16];
+
+	 for(int i = 0; i < 16; i++)
+	 {
+		l[i] = normalize(LightDirection_cameraspace[i]);
+		cosTheta[i] = clamp( dot( n,l[i] ), 0,1 );
+		distanceVector[i] = Position_worldspace - LightPosition[i];
+		distance[i] = sqrt(dot(distanceVector[i], distanceVector[i]));
+	 }
+
+	vec3 MaterialDiffuseColor = texture(myTextureSampler, UV).rgb;
+	float alpha = 1.0f;
+
+	vec3 color3 = vec3(0,0,0);
+
+	for(int i = 0; i < 16; i++)
+	{
+		color3 = color3 + (MaterialDiffuseColor * LightColor[i] * LightPower[i] * cosTheta[i] / (distance[i] * distance[i]));
+	}
+	vec3 ambient = vec3(.05,.05,.05) * MaterialDiffuseColor;
+	color3 = color3 + ambient;
+
+	//vec2 newCoord = (floor(viewportCoord) + 0.5) / textureSize(myTextureSampler);
+	
+	color = vec4(color3.x, color3.y, color3.z, alpha);
+	//color = vec4(floor(color3.x *5) / 5.0f, floor(color3.y *5) / 5.0f, floor(color3.z *5) / 5.0f, alpha) + Material;
+}

@@ -1,0 +1,21 @@
+#version 330 core
+
+// Ouput data
+out vec4 color;
+
+in vec2 UV;
+in vec3 Normal_cameraspace;
+in vec3 LightDirection_cameraspace;
+in vec3 LightPosition_worldspace;
+in vec3 Position_worldspace;
+
+//Values that stay constant for the whole mesh.
+uniform sampler2D myTextureSampler;
+uniform vec3 LightColor;
+uniform float LightPower;
+
+
+void main()
+{
+	color = vec4(1.0f, 1.0f, 1.0f, 1.0f);
+}

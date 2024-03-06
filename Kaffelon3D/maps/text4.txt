@@ -1,0 +1,96 @@
+position:vec3(0.000000, -18.000000, 4.000000)
+hitboxmin:vec3(-1.000000, -1.000000, -1.000000)
+hitboxmax:vec3(1.000000, 1.000000, 1.000000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+modelmat:mat4x4((1.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (0.000000, -18.000000, 4.000000, 1.000000))
+END
+position:vec3(0.000000, -18.000000, 4.000000)
+hitboxmin:vec3(-1.000000, -1.000000, -1.000000)
+hitboxmax:vec3(1.000000, 1.000000, 1.000000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+modelmat:mat4x4((1.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (0.000000, -18.000000, 4.000000, 1.000000))
+END
+position:vec3(0.000000, -20.000000, 4.000000)
+hitboxmin:vec3(-2.000000, -2.000000, -2.000000)
+hitboxmax:vec3(2.000000, 2.000000, 2.000000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+modelmat:mat4x4((2.000000, 0.000000, 0.000000, 0.000000), (0.000000, 2.000000, 0.000000, 0.000000), (0.000000, 0.000000, 2.000000, 0.000000), (0.000000, -20.000000, 4.000000, 1.000000))
+END
+position:vec3(0.000000, -20.000000, 4.000000)
+hitboxmin:vec3(-2.000000, -2.000000, -2.000000)
+hitboxmax:vec3(2.000000, 2.000000, 2.000000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+modelmat:mat4x4((2.000000, 0.000000, 0.000000, 0.000000), (0.000000, 2.000000, 0.000000, 0.000000), (0.000000, 0.000000, 2.000000, 0.000000), (0.000000, -20.000000, 4.000000, 1.000000))
+END
+position:vec3(0.000000, -17.500000, 0.000000)
+hitboxmin:vec3(99.000000, 99.000000, 99.000000)
+hitboxmax:vec3(99.000000, 99.000000, 99.000000)
+model:B 
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+modelmat:mat4x4((1.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (0.000000, -17.500000, 0.000000, 1.000000))
+END
+position:vec3(0.000000, -17.500000, 0.000000)
+hitboxmin:vec3(-1.000000, -1.000000, -1.000000)
+hitboxmax:vec3(99.000000, 99.000000, 99.000000)
+model:B 
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+modelmat:mat4x4((1.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (0.000000, -17.500000, 0.000000, 1.000000))
+END
+position:vec3(0.000000, -17.500000, 0.000000)
+hitboxmin:vec3(-1.000000, -1.000000, -1.000000)
+hitboxmax:vec3(1.000000, 1.000000, 1.000000)
+model:B 
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+modelmat:mat4x4((1.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (0.000000, -17.500000, 0.000000, 1.000000))
+END
+position:vec3(0.000000, -17.500000, 0.000000)
+hitboxmin:vec3(-1.000000, -1.000000, -1.000000)
+hitboxmax:vec3(1.000000, 1.000000, 1.000000)
+model:нннннннннннннннннннннннннннннннннннн 
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+modelmat:mat4x4((1.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (0.000000, -17.500000, 0.000000, 1.000000))
+END
+position:vec3(0.000000, -17.500000, 0.000000)
+hitboxmin:vec3(-1.000000, -1.000000, -1.000000)
+hitboxmax:vec3(1.000000, 1.000000, 1.000000)
+model:нннннннннннннннннннннннннннннннннннн 
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+modelmat:mat4x4((1.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (0.000000, -17.500000, 0.000000, 1.000000))
+END
+position:vec3(0.000000, -17.500000, 0.000000)
+hitboxmin:vec3(-1.000000, -1.000000, -1.000000)
+hitboxmax:vec3(1.000000, 1.000000, 1.000000)
+model:нннннннннннннннннннннннннннннннннннн 
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+modelmat:mat4x4((1.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (0.000000, -17.500000, 0.000000, 1.000000))
+END
+position:vec3(0.000000, -17.500000, 0.000000)
+hitboxmin:vec3(-1.000000, -1.000000, -1.000000)
+hitboxmax:vec3(1.000000, 1.000000, 1.000000)
+model:нннннннннннннннннннннннннннннннннннн 
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+modelmat:mat4x4((1.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (0.000000, -17.500000, 0.000000, 1.000000))
+END
+position:vec3(99.000000, 99.000000, 99.000000)
+hitboxmin:vec3(99.000000, 99.000000, 99.000000)
+hitboxmax:vec3(99.000000, 99.000000, 99.000000)
+model:нннннннннннннннннннннннннннннннннннн 
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+modelmat:mat4x4((1.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (99.000000, 99.000000, 99.000000, 1.000000))
+END

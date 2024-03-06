@@ -1,0 +1,34 @@
+name:boxone
+position:vec3(-4.000000, 0.000000, 0.000000)
+hitboxmin:vec3(-3.000000, -1.000000, -1.000000)
+hitboxmax:vec3(3.000000, 1.000000, 1.000000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(3.000000, 1.000000, 1.000000)
+scale:vec3(3.000000, 1.000000, 1.000000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/wood.DDS
+modelmat:mat4x4((3.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (-4.000000, 0.000000, 0.000000, 1.000000))
+hitboxoverride:0
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:boxtwo
+position:vec3(1.000000, 0.000000, 0.000000)
+hitboxmin:vec3(-1.000000, -1.000000, -1.000000)
+hitboxmax:vec3(1.000000, 1.000000, 1.000000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(1.000000, 1.000000, 1.000000)
+scale:vec3(1.000000, 1.000000, 1.000000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/wood.DDS
+modelmat:mat4x4((1.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (1.000000, 0.000000, 0.000000, 1.000000))
+hitboxoverride:0
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END

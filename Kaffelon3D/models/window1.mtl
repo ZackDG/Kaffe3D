@@ -1,0 +1,13 @@
+# Blender MTL File: 'engineassets.blend'
+# Material Count: 1
+
+newmtl Texture.008
+Ns 39.999995
+Ka 1.000000 1.000000 1.000000
+Kd 0.752941 0.752941 0.752941
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:\\Users\\zackd\\Downloads\\uploads_files_812850_Underworld+Pack\\Underworld Pack for FPSC\\Underworld\\Extras\\WINTALL_D2.tga

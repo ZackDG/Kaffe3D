@@ -1,0 +1,8 @@
+position:vec3(0.000000, -17.500000, 0.000000)
+hitboxmin:vec3(-1.000000, -1.000000, -1.000000)
+hitboxmax:vec3(1.000000, 1.000000, 1.000000)
+model:models/simple.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+modelmat:mat4x4((1.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (0.000000, -17.500000, 0.000000, 1.000000))
+END

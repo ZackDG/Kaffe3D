@@ -1,0 +1,112 @@
+position:vec3(-2.000000, -18.000000, 3.700000)
+hitboxmin:vec3(-1.000000, -1.000000, -1.000000)
+hitboxmax:vec3(1.000000, 1.000000, 1.000000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+modelmat:mat4x4((1.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (-2.000000, -18.000000, 3.700000, 1.000000))
+END
+position:vec3(-2.000000, -18.000000, 3.700000)
+hitboxmin:vec3(-1.000000, -1.000000, -1.000000)
+hitboxmax:vec3(1.000000, 1.000000, 1.000000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+modelmat:mat4x4((1.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (-2.000000, -18.000000, 3.700000, 1.000000))
+END
+position:vec3(-1.300000, -17.499990, 6.999997)
+hitboxmin:vec3(-2.000000, -2.000000, -2.000000)
+hitboxmax:vec3(2.000000, 2.000000, 2.000000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+modelmat:mat4x4((2.000000, 0.000000, 0.000000, 0.000000), (0.000000, 2.000000, 0.000000, 0.000000), (0.000000, 0.000000, 2.000000, 0.000000), (-1.300000, -17.499990, 6.999997, 1.000000))
+END
+position:vec3(-1.300000, -17.499990, 6.999997)
+hitboxmin:vec3(-2.000000, -2.000000, -2.000000)
+hitboxmax:vec3(2.000000, 2.000000, 2.000000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+modelmat:mat4x4((2.000000, 0.000000, 0.000000, 0.000000), (0.000000, 2.000000, 0.000000, 0.000000), (0.000000, 0.000000, 2.000000, 0.000000), (-1.300000, -17.499990, 6.999997, 1.000000))
+END
+position:vec3(0.000000, -18.000000, 4.000000)
+hitboxmin:vec3(-1.000000, -1.000000, -1.000000)
+hitboxmax:vec3(1.000000, 1.000000, 1.000000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+modelmat:mat4x4((1.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (0.000000, -18.000000, 4.000000, 1.000000))
+END
+position:vec3(0.000000, -18.000000, 4.000000)
+hitboxmin:vec3(-1.000000, -1.000000, -1.000000)
+hitboxmax:vec3(1.000000, 1.000000, 1.000000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+modelmat:mat4x4((1.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (0.000000, -18.000000, 4.000000, 1.000000))
+END
+position:vec3(0.000000, -20.000000, 4.000000)
+hitboxmin:vec3(-2.000000, -2.000000, -2.000000)
+hitboxmax:vec3(2.000000, 2.000000, 2.000000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+modelmat:mat4x4((1.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (0.000000, -20.000000, 4.000000, 1.000000))
+END
+position:vec3(0.000000, -20.000000, 4.000000)
+hitboxmin:vec3(-2.000000, -2.000000, -2.000000)
+hitboxmax:vec3(2.000000, 2.000000, 2.000000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+modelmat:mat4x4((1.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (0.000000, -20.000000, 4.000000, 1.000000))
+END
+position:vec3(0.000000, -18.000000, 4.000000)
+hitboxmin:vec3(-1.000000, -1.000000, -1.000000)
+hitboxmax:vec3(1.000000, 1.000000, 1.000000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+modelmat:mat4x4((1.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (0.000000, -18.000000, 4.000000, 1.000000))
+END
+position:vec3(0.000000, -18.000000, 4.000000)
+hitboxmin:vec3(-1.000000, -1.000000, -1.000000)
+hitboxmax:vec3(1.000000, 1.000000, 1.000000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+modelmat:mat4x4((1.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (0.000000, -18.000000, 4.000000, 1.000000))
+END
+position:vec3(0.000000, -20.000000, 4.000000)
+hitboxmin:vec3(-2.000000, -2.000000, -2.000000)
+hitboxmax:vec3(2.000000, 2.000000, 2.000000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+modelmat:mat4x4((1.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (0.000000, -20.000000, 4.000000, 1.000000))
+END
+position:vec3(0.000000, -20.000000, 4.000000)
+hitboxmin:vec3(-2.000000, -2.000000, -2.000000)
+hitboxmax:vec3(2.000000, 2.000000, 2.000000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+modelmat:mat4x4((1.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (0.000000, -20.000000, 4.000000, 1.000000))
+END
+position:vec3(-2.500000, -19.300007, -0.100000)
+hitboxmin:vec3(-1.000000, -1.000000, -1.000000)
+hitboxmax:vec3(1.000000, 1.000000, 1.000000)
+model:models/simple.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+modelmat:mat4x4((1.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (-2.500000, -19.300007, -0.100000, 1.000000))
+END
+position:vec3(-0.300000, -0.200000, -2.000000)
+hitboxmin:vec3(-1.000000, -1.000000, -1.000000)
+hitboxmax:vec3(1.000000, 1.000000, 1.000000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+modelmat:mat4x4((1.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (-0.300000, -0.200000, -2.000000, 1.000000))
+END

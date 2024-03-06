@@ -1,0 +1,1140 @@
+name:ground
+position:vec3(13.000000, 19.715633, 0.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-20.000000, -1.000000, -10.000000)
+hitboxmax:vec3(20.000000, 1.000000, 10.000000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(20.000000, 1.000000, 10.000000)
+scale:vec3(20.000000, 1.000000, 10.000000)
+model:models/planeuvs.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/stone2.dds
+modelmat:mat4x4((20.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 10.000000, 0.000000), (13.000000, 19.715633, 0.000000, 1.000000))
+hitboxoverride:0
+iscollider:0
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-51.000000, 8.000000, -1.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-1.000000, -20.000000, -20.000000)
+hitboxmax:vec3(1.000000, 20.000000, 20.000000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(1.000000, 20.000000, 20.000000)
+scale:vec3(1.000000, 20.000000, 20.000000)
+model:models/planeuvs.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/stone2.dds
+modelmat:mat4x4((1.000000, 0.000000, 0.000000, 0.000000), (0.000000, 20.000000, 0.000000, 0.000000), (0.000000, 0.000000, 20.000000, 0.000000), (-51.000000, 8.000000, -1.000000, 1.000000))
+hitboxoverride:0
+iscollider:1
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(28.000000, 0.000000, 0.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-1.000000, -20.000000, -20.000000)
+hitboxmax:vec3(1.000000, 20.000000, 20.000000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(1.000000, 20.000000, 20.000000)
+scale:vec3(1.000000, 20.000000, 20.000000)
+model:models/planeuvs.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/stone2.dds
+modelmat:mat4x4((1.000000, 0.000000, 0.000000, 0.000000), (0.000000, 20.000000, 0.000000, 0.000000), (0.000000, 0.000000, 20.000000, 0.000000), (28.000000, 0.000000, 0.000000, 1.000000))
+hitboxoverride:0
+iscollider:1
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-31.740004, 8.055599, 7.479431)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-1.676561, -12.155846, -1.460322)
+hitboxmax:vec3(1.561800, 2.450935, 1.460322)
+hitboxoffset:vec3(-0.057382, -4.852455, 0.000000)
+hitboxscale:vec3(1.619182, 7.303391, 1.460322)
+scale:vec3(1.011266, 2.000000, 1.000000)
+model:models/GazingPillar.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/gazing_pillar.dds
+modelmat:mat4x4((1.011266, 0.000000, 0.000000, 0.000000), (0.000000, 2.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (-31.740004, 8.055599, 7.479431, 1.000000))
+hitboxoverride:1
+iscollider:1
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-17.000000, 14.000000, 2.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-0.500000, -0.500000, -0.500000)
+hitboxmax:vec3(0.500000, 0.500000, 0.500000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(0.500000, 0.500000, 0.500000)
+scale:vec3(0.500000, 0.500000, 0.500000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:
+modelmat:mat4x4((0.500000, 0.000000, 0.000000, 0.000000), (0.000000, 0.500000, 0.000000, 0.000000), (0.000000, 0.000000, 0.500000, 0.000000), (-17.000000, 14.000000, 2.000000, 1.000000))
+hitboxoverride:0
+iscollider:0
+light:1
+lightcolor:vec3(1.000000, 0.800000, 0.800000)
+power:20
+END
+name:ground1
+position:vec3(-63.000000, -5.000000, 2.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-15.000000, -1.000000, -15.000000)
+hitboxmax:vec3(15.000000, 1.000000, 15.000000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(15.000000, 1.000000, 15.000000)
+scale:vec3(15.000000, 1.000000, 15.000000)
+model:models/planeuvs.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/floor1.dds
+modelmat:mat4x4((15.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 15.000000, 0.000000), (-63.000000, -5.000000, 2.000000, 1.000000))
+hitboxoverride:0
+iscollider:1
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-32.668934, 8.055599, -3.520569)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-1.189167, -11.931437, -1.569430)
+hitboxmax:vec3(1.531574, 2.226526, 1.569430)
+hitboxoffset:vec3(0.171205, -4.852455, 0.000000)
+hitboxscale:vec3(1.360369, 7.078981, 1.569430)
+scale:vec3(0.916687, 2.000000, 1.000000)
+model:models/GazingPillar.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/gazing_pillar.dds
+modelmat:mat4x4((0.916687, 0.000000, 0.000000, 0.000000), (0.000000, 2.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (-32.668934, 8.055599, -3.520569, 1.000000))
+hitboxoverride:1
+iscollider:1
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-11.668935, 8.055599, 7.479431)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-1.591391, -11.931437, -1.384557)
+hitboxmax:vec3(1.591391, 2.226526, 1.384557)
+hitboxoffset:vec3(0.000000, -4.852455, 0.000000)
+hitboxscale:vec3(1.591391, 7.078981, 1.384557)
+scale:vec3(1.011266, 2.000000, 1.000000)
+model:models/GazingPillar.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/gazing_pillar.dds
+modelmat:mat4x4((1.011266, 0.000000, 0.000000, 0.000000), (0.000000, 2.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (-11.668935, 8.055599, 7.479431, 1.000000))
+hitboxoverride:1
+iscollider:1
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-21.668934, 8.055599, 7.479431)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-1.608452, -11.931437, -1.519109)
+hitboxmax:vec3(1.608452, 2.226526, 1.519109)
+hitboxoffset:vec3(0.000000, -4.852455, 0.000000)
+hitboxscale:vec3(1.608452, 7.078981, 1.519109)
+scale:vec3(1.011266, 2.000000, 1.000000)
+model:models/GazingPillar.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/gazing_pillar.dds
+modelmat:mat4x4((1.011266, 0.000000, 0.000000, 0.000000), (0.000000, 2.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (-21.668934, 8.055599, 7.479431, 1.000000))
+hitboxoverride:1
+iscollider:1
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:FixPillar
+position:vec3(-1.668935, 8.055599, 7.479431)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-1.666523, -11.931437, -1.463274)
+hitboxmax:vec3(1.666523, 2.226526, 1.463274)
+hitboxoffset:vec3(0.000000, -4.852455, 0.000000)
+hitboxscale:vec3(1.666523, 7.078981, 1.463274)
+scale:vec3(1.011266, 2.000000, 1.000000)
+model:models/GazingPillar.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/gazing_pillar.dds
+modelmat:mat4x4((1.011266, 0.000000, 0.000000, 0.000000), (0.000000, 2.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (-1.668935, 8.055599, 7.479431, 1.000000))
+hitboxoverride:1
+iscollider:1
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-11.668935, 8.055599, -3.520569)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-1.553861, -11.931437, -1.488253)
+hitboxmax:vec3(1.553861, 2.226526, 1.488253)
+hitboxoffset:vec3(0.000000, -4.852455, 0.000000)
+hitboxscale:vec3(1.553861, 7.078981, 1.488253)
+scale:vec3(1.011266, 2.000000, 1.000000)
+model:models/GazingPillar.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/gazing_pillar.dds
+modelmat:mat4x4((1.011266, 0.000000, 0.000000, 0.000000), (0.000000, 2.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (-11.668935, 8.055599, -3.520569, 1.000000))
+hitboxoverride:1
+iscollider:1
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-21.668934, 8.055599, -3.520569)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-1.437981, -11.931437, -1.635826)
+hitboxmax:vec3(1.437981, 2.226526, 1.635826)
+hitboxoffset:vec3(0.000000, -4.852455, 0.000000)
+hitboxscale:vec3(1.437981, 7.078981, 1.635826)
+scale:vec3(1.011266, 2.000000, 1.000000)
+model:models/GazingPillar.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/gazing_pillar.dds
+modelmat:mat4x4((1.011266, 0.000000, 0.000000, 0.000000), (0.000000, 2.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (-21.668934, 8.055599, -3.520569, 1.000000))
+hitboxoverride:1
+iscollider:1
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:ground1
+position:vec3(27.000000, -5.205775, 2.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-15.000000, -0.835600, -15.000000)
+hitboxmax:vec3(15.000000, 1.164400, 15.000000)
+hitboxoffset:vec3(0.000000, 0.164400, 0.000000)
+hitboxscale:vec3(15.000000, 1.000000, 15.000000)
+scale:vec3(15.000000, 1.000000, 15.000000)
+model:models/planeuvs.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/floor1.dds
+modelmat:mat4x4((15.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 15.000000, 0.000000), (27.000000, -5.205775, 2.000000, 1.000000))
+hitboxoverride:0
+iscollider:1
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-22.000000, 3.000000, -7.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-0.500000, -0.500000, -0.500000)
+hitboxmax:vec3(0.500000, 0.500000, 0.500000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(0.500000, 0.500000, 0.500000)
+scale:vec3(0.500000, 0.500000, 0.500000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:
+modelmat:mat4x4((0.500000, 0.000000, 0.000000, 0.000000), (0.000000, 0.500000, 0.000000, 0.000000), (0.000000, 0.000000, 0.500000, 0.000000), (-22.000000, 3.000000, -7.000000, 1.000000))
+hitboxoverride:0
+iscollider:0
+light:1
+lightcolor:vec3(1.000000, 0.000000, 0.000000)
+power:25
+END
+name:
+position:vec3(-24.046455, -3.043453, -11.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-2.133909, 1.740862, -0.102844)
+hitboxmax:vec3(-1.280184, 4.138114, -0.000484)
+hitboxoffset:vec3(-1.707047, 2.939488, -0.051664)
+hitboxscale:vec3(0.426863, 1.198626, 0.051180)
+scale:vec3(0.200000, 0.200000, 0.200000)
+model:models/window3.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/wintall.dds
+modelmat:mat4x4((0.200000, 0.000000, 0.000000, 0.000000), (0.000000, 0.200000, 0.000000, 0.000000), (0.000000, 0.000000, 0.200000, 0.000000), (-24.046455, -3.043453, -11.000000, 1.000000))
+hitboxoverride:1
+iscollider:0
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-20.000000, 7.000000, 10.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-0.500000, -0.500000, -0.500000)
+hitboxmax:vec3(0.500000, 0.500000, 0.500000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(0.500000, 0.500000, 0.500000)
+scale:vec3(0.500000, 0.500000, 0.500000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:
+modelmat:mat4x4((0.500000, 0.000000, 0.000000, 0.000000), (0.000000, 0.500000, 0.000000, 0.000000), (0.000000, 0.000000, 0.500000, 0.000000), (-20.000000, 7.000000, 10.000000, 1.000000))
+hitboxoverride:0
+iscollider:0
+light:1
+lightcolor:vec3(1.000000, 0.000000, 0.000000)
+power:25
+END
+name:
+position:vec3(5.953545, -3.043453, -11.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-2.133910, 1.740862, -0.102844)
+hitboxmax:vec3(-1.280184, 4.138114, -0.000484)
+hitboxoffset:vec3(-1.707047, 2.939488, -0.051664)
+hitboxscale:vec3(0.426863, 1.198626, 0.051180)
+scale:vec3(0.200000, 0.200000, 0.200000)
+model:models/window3.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/wintall.dds
+modelmat:mat4x4((0.200000, 0.000000, 0.000000, 0.000000), (0.000000, 0.200000, 0.000000, 0.000000), (0.000000, 0.000000, 0.200000, 0.000000), (5.953545, -3.043453, -11.000000, 1.000000))
+hitboxoverride:1
+iscollider:0
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-4.046455, -3.043453, -11.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-2.133910, 1.740862, -0.102844)
+hitboxmax:vec3(-1.280184, 4.138114, -0.000484)
+hitboxoffset:vec3(-1.707047, 2.939488, -0.051664)
+hitboxscale:vec3(0.426863, 1.198626, 0.051180)
+scale:vec3(0.200000, 0.200000, 0.200000)
+model:models/window3.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/wintall.dds
+modelmat:mat4x4((0.200000, 0.000000, 0.000000, 0.000000), (0.000000, 0.200000, 0.000000, 0.000000), (0.000000, 0.000000, 0.200000, 0.000000), (-4.046455, -3.043453, -11.000000, 1.000000))
+hitboxoverride:1
+iscollider:0
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-14.046455, -3.043453, -11.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-2.133909, 1.740862, -0.102844)
+hitboxmax:vec3(-1.280184, 4.138114, -0.000484)
+hitboxoffset:vec3(-1.707047, 2.939488, -0.051664)
+hitboxscale:vec3(0.426863, 1.198626, 0.051180)
+scale:vec3(0.200000, 0.200000, 0.200000)
+model:models/window3.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/wintall.dds
+modelmat:mat4x4((0.200000, 0.000000, 0.000000, 0.000000), (0.000000, 0.200000, 0.000000, 0.000000), (0.000000, 0.000000, 0.200000, 0.000000), (-14.046455, -3.043453, -11.000000, 1.000000))
+hitboxoverride:1
+iscollider:0
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-43.000000, 3.000000, 2.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-0.500000, -0.500000, -0.500000)
+hitboxmax:vec3(0.500000, 0.500000, 0.500000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(0.500000, 0.500000, 0.500000)
+scale:vec3(0.500000, 0.500000, 0.500000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:
+modelmat:mat4x4((0.500000, 0.000000, 0.000000, 0.000000), (0.000000, 0.500000, 0.000000, 0.000000), (0.000000, 0.000000, 0.500000, 0.000000), (-43.000000, 3.000000, 2.000000, 1.000000))
+hitboxoverride:0
+iscollider:0
+light:1
+lightcolor:vec3(1.000000, 0.500000, 0.000000)
+power:50
+END
+name:altar
+position:vec3(-46.000000, -3.804647, 2.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:90
+hitboxmin:vec3(-4.544830, -1.826046, -2.348957)
+hitboxmax:vec3(4.237930, 9.791101, 2.608647)
+hitboxoffset:vec3(-0.153451, 3.982528, 0.129845)
+hitboxscale:vec3(4.391379, 5.808574, 2.478802)
+scale:vec3(0.995398, 1.000000, 1.000000)
+model:models/DarkAltar.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/altar.dds
+modelmat:mat4x4((-0.000000, 0.000000, -0.995398, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (1.000000, 0.000000, -0.000000, 0.000000), (-46.000000, -3.804647, 2.000000, 1.000000))
+hitboxoverride:1
+iscollider:1
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:fixwall
+position:vec3(19.000000, 3.000000, -12.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-10.000000, -10.177196, -1.000000)
+hitboxmax:vec3(10.000000, 10.177196, 1.000000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(10.000000, 10.177196, 1.000000)
+scale:vec3(10.000000, 10.000000, 1.000000)
+model:models/planeuvs.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/stone3.dds
+modelmat:mat4x4((10.000000, 0.000000, 0.000000, 0.000000), (0.000000, 10.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (19.000000, 3.000000, -12.000000, 1.000000))
+hitboxoverride:1
+iscollider:1
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-1.000000, 3.000000, -12.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-10.000000, -10.177196, -1.000000)
+hitboxmax:vec3(10.000000, 10.177196, 1.000000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(10.000000, 10.177196, 1.000000)
+scale:vec3(10.000000, 10.000000, 1.000000)
+model:models/planeuvs.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/stone3.dds
+modelmat:mat4x4((10.000000, 0.000000, 0.000000, 0.000000), (0.000000, 10.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (-1.000000, 3.000000, -12.000000, 1.000000))
+hitboxoverride:1
+iscollider:1
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-21.000000, 3.000000, -12.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-10.000000, -10.177196, -1.000000)
+hitboxmax:vec3(10.000000, 10.177196, 1.000000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(10.000000, 10.177196, 1.000000)
+scale:vec3(10.000000, 10.000000, 1.000000)
+model:models/planeuvs.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/stone3.dds
+modelmat:mat4x4((10.000000, 0.000000, 0.000000, 0.000000), (0.000000, 10.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (-21.000000, 3.000000, -12.000000, 1.000000))
+hitboxoverride:1
+iscollider:1
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-23.000000, 3.000000, 16.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-10.000000, -10.000000, -1.000000)
+hitboxmax:vec3(10.000000, 10.000000, 1.000000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(10.000000, 10.000000, 1.000000)
+scale:vec3(10.000000, 10.000000, 1.000000)
+model:models/planeuvs.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/stone3.dds
+modelmat:mat4x4((10.000000, 0.000000, 0.000000, 0.000000), (0.000000, 10.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (-23.000000, 3.000000, 16.000000, 1.000000))
+hitboxoverride:0
+iscollider:1
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-4.046455, -3.043453, 15.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-2.133910, 1.740862, -0.102844)
+hitboxmax:vec3(-1.280184, 4.138114, -0.000484)
+hitboxoffset:vec3(-1.707047, 2.939488, -0.051664)
+hitboxscale:vec3(0.426863, 1.198626, 0.051180)
+scale:vec3(0.200000, 0.200000, 0.200000)
+model:models/window3.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/wintall.dds
+modelmat:mat4x4((0.200000, 0.000000, 0.000000, 0.000000), (0.000000, 0.200000, 0.000000, 0.000000), (0.000000, 0.000000, 0.200000, 0.000000), (-4.046455, -3.043453, 15.000000, 1.000000))
+hitboxoverride:1
+iscollider:0
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(5.953545, -3.043453, 15.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-2.133910, 1.740862, -0.102844)
+hitboxmax:vec3(-1.280184, 4.138114, -0.000484)
+hitboxoffset:vec3(-1.707047, 2.939488, -0.051664)
+hitboxscale:vec3(0.426863, 1.198626, 0.051180)
+scale:vec3(0.200000, 0.200000, 0.200000)
+model:models/window3.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/wintall.dds
+modelmat:mat4x4((0.200000, 0.000000, 0.000000, 0.000000), (0.000000, 0.200000, 0.000000, 0.000000), (0.000000, 0.000000, 0.200000, 0.000000), (5.953545, -3.043453, 15.000000, 1.000000))
+hitboxoverride:1
+iscollider:0
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-14.046455, -3.043453, 15.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-2.133909, 1.740862, -0.102844)
+hitboxmax:vec3(-1.280184, 4.138114, -0.000484)
+hitboxoffset:vec3(-1.707047, 2.939488, -0.051664)
+hitboxscale:vec3(0.426863, 1.198626, 0.051180)
+scale:vec3(0.200000, 0.200000, 0.200000)
+model:models/window3.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/wintall.dds
+modelmat:mat4x4((0.200000, 0.000000, 0.000000, 0.000000), (0.000000, 0.200000, 0.000000, 0.000000), (0.000000, 0.000000, 0.200000, 0.000000), (-14.046455, -3.043453, 15.000000, 1.000000))
+hitboxoverride:1
+iscollider:0
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-24.046455, -3.043453, 15.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-2.133909, 1.740862, -0.102844)
+hitboxmax:vec3(-1.280184, 4.138114, -0.000484)
+hitboxoffset:vec3(-1.707047, 2.939488, -0.051664)
+hitboxscale:vec3(0.426863, 1.198626, 0.051180)
+scale:vec3(0.200000, 0.200000, 0.200000)
+model:models/window3.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/wintall.dds
+modelmat:mat4x4((0.200000, 0.000000, 0.000000, 0.000000), (0.000000, 0.200000, 0.000000, 0.000000), (0.000000, 0.000000, 0.200000, 0.000000), (-24.046455, -3.043453, 15.000000, 1.000000))
+hitboxoverride:1
+iscollider:0
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-2.000000, 3.000000, 10.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-0.500000, -0.500000, -0.500000)
+hitboxmax:vec3(0.500000, 0.500000, 0.500000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(0.500000, 0.500000, 0.500000)
+scale:vec3(0.500000, 0.500000, 0.500000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:
+modelmat:mat4x4((0.500000, 0.000000, 0.000000, 0.000000), (0.000000, 0.500000, 0.000000, 0.000000), (0.000000, 0.000000, 0.500000, 0.000000), (-2.000000, 3.000000, 10.000000, 1.000000))
+hitboxoverride:0
+iscollider:0
+light:1
+lightcolor:vec3(1.000000, 0.000000, 0.000000)
+power:25
+END
+name:
+position:vec3(-2.000000, 3.000000, -6.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-0.500000, -0.500000, -0.500000)
+hitboxmax:vec3(0.500000, 0.500000, 0.500000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(0.500000, 0.500000, 0.500000)
+scale:vec3(0.500000, 0.500000, 0.500000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:
+modelmat:mat4x4((0.500000, 0.000000, 0.000000, 0.000000), (0.000000, 0.500000, 0.000000, 0.000000), (0.000000, 0.000000, 0.500000, 0.000000), (-2.000000, 3.000000, -6.000000, 1.000000))
+hitboxoverride:0
+iscollider:0
+light:1
+lightcolor:vec3(1.000000, 0.000000, 0.000000)
+power:25
+END
+name:ground1
+position:vec3(-3.000000, -5.205775, 2.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-15.000000, -0.835600, -15.000000)
+hitboxmax:vec3(15.000000, 1.164400, 15.000000)
+hitboxoffset:vec3(0.000000, 0.164400, 0.000000)
+hitboxscale:vec3(15.000000, 1.000000, 15.000000)
+scale:vec3(15.000000, 1.000000, 15.000000)
+model:models/planeuvs.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/floor1.dds
+modelmat:mat4x4((15.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 15.000000, 0.000000), (-3.000000, -5.205775, 2.000000, 1.000000))
+hitboxoverride:0
+iscollider:1
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-3.000000, 3.000000, 16.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-10.000000, -10.177196, -1.000000)
+hitboxmax:vec3(10.000000, 10.177196, 1.000000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(10.000000, 10.177196, 1.000000)
+scale:vec3(10.000000, 10.000000, 1.000000)
+model:models/planeuvs.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/stone3.dds
+modelmat:mat4x4((10.000000, 0.000000, 0.000000, 0.000000), (0.000000, 10.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (-3.000000, 3.000000, 16.000000, 1.000000))
+hitboxoverride:1
+iscollider:1
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(17.000000, 3.000000, 16.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-10.000000, -10.177196, -1.000000)
+hitboxmax:vec3(10.000000, 10.177196, 1.000000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(10.000000, 10.177196, 1.000000)
+scale:vec3(10.000000, 10.000000, 1.000000)
+model:models/planeuvs.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/stone3.dds
+modelmat:mat4x4((10.000000, 0.000000, 0.000000, 0.000000), (0.000000, 10.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (17.000000, 3.000000, 16.000000, 1.000000))
+hitboxoverride:1
+iscollider:1
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-21.000000, 14.000000, 16.000000)
+rotationaxis:vec3(1.000000, 0.000000, 0.000000)
+angle:-45
+hitboxmin:vec3(-10.000000, -10.177196, -1.000000)
+hitboxmax:vec3(10.000000, 10.177197, 1.000000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(10.000000, 10.177196, 1.000000)
+scale:vec3(10.000000, 10.000000, 1.000000)
+model:models/planeuvs.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/stone.dds
+modelmat:mat4x4((10.000000, 0.000000, 0.000000, 0.000000), (0.000000, 7.071068, -7.071068, 0.000000), (0.000000, 0.707107, 0.707107, 0.000000), (-21.000000, 14.000000, 16.000000, 1.000000))
+hitboxoverride:1
+iscollider:1
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-1.000000, 14.000000, 16.000000)
+rotationaxis:vec3(1.000000, 0.000000, 0.000000)
+angle:-45
+hitboxmin:vec3(-10.000000, -10.177196, -1.000000)
+hitboxmax:vec3(10.000000, 10.177197, 1.000000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(10.000000, 10.177196, 1.000000)
+scale:vec3(10.000000, 10.000000, 1.000000)
+model:models/planeuvs.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/stone.dds
+modelmat:mat4x4((10.000000, 0.000000, 0.000000, 0.000000), (0.000000, 7.071068, -7.071068, 0.000000), (0.000000, 0.707107, 0.707107, 0.000000), (-1.000000, 14.000000, 16.000000, 1.000000))
+hitboxoverride:1
+iscollider:0
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:ground
+position:vec3(-67.000000, 19.715633, 0.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-20.000000, -1.000000, -10.000000)
+hitboxmax:vec3(20.000000, 1.000000, 10.000000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(20.000000, 1.000000, 10.000000)
+scale:vec3(20.000000, 1.000000, 10.000000)
+model:models/planeuvs.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/stone2.dds
+modelmat:mat4x4((20.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 10.000000, 0.000000), (-67.000000, 19.715633, 0.000000, 1.000000))
+hitboxoverride:0
+iscollider:0
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(19.000000, 14.000000, 16.000000)
+rotationaxis:vec3(1.000000, 0.000000, 0.000000)
+angle:-45
+hitboxmin:vec3(-10.000000, -10.177196, -1.000000)
+hitboxmax:vec3(10.000000, 10.177197, 1.000000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(10.000000, 10.177196, 1.000000)
+scale:vec3(10.000000, 10.000000, 1.000000)
+model:models/planeuvs.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/stone.dds
+modelmat:mat4x4((10.000000, 0.000000, 0.000000, 0.000000), (0.000000, 7.071068, -7.071068, 0.000000), (0.000000, 0.707107, 0.707107, 0.000000), (19.000000, 14.000000, 16.000000, 1.000000))
+hitboxoverride:1
+iscollider:0
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(19.000000, 14.000000, -11.000000)
+rotationaxis:vec3(1.000000, 0.000000, 0.000000)
+angle:45
+hitboxmin:vec3(-10.000000, -10.177196, -1.000000)
+hitboxmax:vec3(10.000000, 10.177197, 1.000000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(10.000000, 10.177196, 1.000000)
+scale:vec3(10.000000, 10.000000, 1.000000)
+model:models/planeuvs.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/stone.dds
+modelmat:mat4x4((10.000000, 0.000000, 0.000000, 0.000000), (0.000000, 7.071068, 7.071068, 0.000000), (0.000000, -0.707107, 0.707107, 0.000000), (19.000000, 14.000000, -11.000000, 1.000000))
+hitboxoverride:1
+iscollider:0
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:testWall
+position:vec3(-1.000000, 14.000000, -11.000000)
+rotationaxis:vec3(1.000000, 0.000000, 0.000000)
+angle:45
+hitboxmin:vec3(-10.000000, -10.177196, -1.000000)
+hitboxmax:vec3(10.000000, 10.177197, 1.000000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(10.000000, 10.177196, 1.000000)
+scale:vec3(10.000000, 10.000000, 1.000000)
+model:models/planeuvs.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/stone.dds
+modelmat:mat4x4((10.000000, 0.000000, 0.000000, 0.000000), (0.000000, 7.071068, 7.071068, 0.000000), (0.000000, -0.707107, 0.707107, 0.000000), (-1.000000, 14.000000, -11.000000, 1.000000))
+hitboxoverride:1
+iscollider:0
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-21.000000, 14.000000, -11.000000)
+rotationaxis:vec3(1.000000, 0.000000, 0.000000)
+angle:45
+hitboxmin:vec3(-10.000000, -10.177196, -1.000000)
+hitboxmax:vec3(10.000000, 10.177197, 1.000000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(10.000000, 10.177196, 1.000000)
+scale:vec3(10.000000, 10.000000, 1.000000)
+model:models/planeuvs.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/stone.dds
+modelmat:mat4x4((10.000000, 0.000000, 0.000000, 0.000000), (0.000000, 7.071068, 7.071068, 0.000000), (0.000000, -0.707107, 0.707107, 0.000000), (-21.000000, 14.000000, -11.000000, 1.000000))
+hitboxoverride:1
+iscollider:0
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-1.668935, 8.055599, -3.520569)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-1.533882, -11.931437, -1.529764)
+hitboxmax:vec3(1.533882, 2.226526, 1.529764)
+hitboxoffset:vec3(0.000000, -4.852455, 0.000000)
+hitboxscale:vec3(1.533882, 7.078981, 1.529764)
+scale:vec3(1.011266, 2.000000, 1.000000)
+model:models/GazingPillar.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/gazing_pillar.dds
+modelmat:mat4x4((1.011266, 0.000000, 0.000000, 0.000000), (0.000000, 2.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (-1.668935, 8.055599, -3.520569, 1.000000))
+hitboxoverride:1
+iscollider:1
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:ground1
+position:vec3(-33.000000, -5.000000, 2.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-15.000000, -1.000000, -15.000000)
+hitboxmax:vec3(15.000000, 1.000000, 15.000000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(15.000000, 1.000000, 15.000000)
+scale:vec3(15.000000, 1.000000, 15.000000)
+model:models/planeuvs.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/floor1.dds
+modelmat:mat4x4((15.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 15.000000, 0.000000), (-33.000000, -5.000000, 2.000000, 1.000000))
+hitboxoverride:0
+iscollider:1
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:ground
+position:vec3(-27.000000, 19.715633, 0.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-20.000000, -1.000000, -10.000000)
+hitboxmax:vec3(20.000000, 1.000000, 10.000000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(20.000000, 1.000000, 10.000000)
+scale:vec3(20.000000, 1.000000, 10.000000)
+model:models/planeuvs.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/stone2.dds
+modelmat:mat4x4((20.000000, 0.000000, 0.000000, 0.000000), (0.000000, 1.000000, 0.000000, 0.000000), (0.000000, 0.000000, 10.000000, 0.000000), (-27.000000, 19.715633, 0.000000, 1.000000))
+hitboxoverride:0
+iscollider:0
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-43.000000, 3.000000, 16.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-10.000000, -10.000000, -1.000000)
+hitboxmax:vec3(10.000000, 10.000000, 1.000000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(10.000000, 10.000000, 1.000000)
+scale:vec3(10.000000, 10.000000, 1.000000)
+model:models/planeuvs.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/stone3.dds
+modelmat:mat4x4((10.000000, 0.000000, 0.000000, 0.000000), (0.000000, 10.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (-43.000000, 3.000000, 16.000000, 1.000000))
+hitboxoverride:0
+iscollider:1
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-41.000000, 14.000000, -11.000000)
+rotationaxis:vec3(1.000000, 0.000000, 0.000000)
+angle:45
+hitboxmin:vec3(-10.000000, -10.177196, -1.000000)
+hitboxmax:vec3(10.000000, 10.177197, 1.000000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(10.000000, 10.177196, 1.000000)
+scale:vec3(10.000000, 10.000000, 1.000000)
+model:models/planeuvs.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/stone.dds
+modelmat:mat4x4((10.000000, 0.000000, 0.000000, 0.000000), (0.000000, 7.071068, 7.071068, 0.000000), (0.000000, -0.707107, 0.707107, 0.000000), (-41.000000, 14.000000, -11.000000, 1.000000))
+hitboxoverride:1
+iscollider:0
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-41.000000, 3.000000, -12.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-10.000000, -10.177196, -1.000000)
+hitboxmax:vec3(10.000000, 10.177196, 1.000000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(10.000000, 10.177196, 1.000000)
+scale:vec3(10.000000, 10.000000, 1.000000)
+model:models/planeuvs.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/stone3.dds
+modelmat:mat4x4((10.000000, 0.000000, 0.000000, 0.000000), (0.000000, 10.000000, 0.000000, 0.000000), (0.000000, 0.000000, 1.000000, 0.000000), (-41.000000, 3.000000, -12.000000, 1.000000))
+hitboxoverride:1
+iscollider:1
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-41.000000, 14.000000, 16.000000)
+rotationaxis:vec3(1.000000, 0.000000, 0.000000)
+angle:-45
+hitboxmin:vec3(-10.000000, -10.177196, -1.000000)
+hitboxmax:vec3(10.000000, 10.177197, 1.000000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(10.000000, 10.177196, 1.000000)
+scale:vec3(10.000000, 10.000000, 1.000000)
+model:models/planeuvs.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/stone.dds
+modelmat:mat4x4((10.000000, 0.000000, 0.000000, 0.000000), (0.000000, 7.071068, -7.071068, 0.000000), (0.000000, 0.707107, 0.707107, 0.000000), (-41.000000, 14.000000, 16.000000, 1.000000))
+hitboxoverride:1
+iscollider:0
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-20.000000, 15.000000, 2.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-0.075001, -0.075000, -0.075000)
+hitboxmax:vec3(0.075001, 0.075000, 0.075000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(0.075000, 0.075000, 0.075000)
+scale:vec3(0.075000, 0.075000, 0.075000)
+model:models/chandelier.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/gold.dds
+modelmat:mat4x4((0.075000, 0.000000, 0.000000, 0.000000), (0.000000, 0.075000, 0.000000, 0.000000), (0.000000, 0.000000, 0.075000, 0.000000), (-20.000000, 15.000000, 2.000000, 1.000000))
+hitboxoverride:0
+iscollider:0
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(4.000000, 12.000000, 5.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-0.500000, -0.500000, -0.500000)
+hitboxmax:vec3(0.500000, 0.500000, 0.500000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(0.500000, 0.500000, 0.500000)
+scale:vec3(0.500000, 0.500000, 0.500000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:
+modelmat:mat4x4((0.500000, 0.000000, 0.000000, 0.000000), (0.000000, 0.500000, 0.000000, 0.000000), (0.000000, 0.000000, 0.500000, 0.000000), (4.000000, 12.000000, 5.000000, 1.000000))
+hitboxoverride:0
+iscollider:0
+light:1
+lightcolor:vec3(1.000000, 1.000000, 1.000000)
+power:10
+END
+name:
+position:vec3(9.000000, 12.000000, 3.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:90
+hitboxmin:vec3(-0.283185, -0.218152, -0.889847)
+hitboxmax:vec3(0.283185, 0.218152, 0.889847)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(0.283185, 0.218152, 0.889847)
+scale:vec3(0.283185, 0.218152, 0.889847)
+model:models/BASTARDSWORD.obj
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/Blades_d2.dds
+modelmat:mat4x4((-0.000000, 0.000000, -0.283185, 0.000000), (0.000000, 0.218152, 0.000000, 0.000000), (0.889847, 0.000000, -0.000000, 0.000000), (9.000000, 12.000000, 3.000000, 1.000000))
+hitboxoverride:0
+iscollider:1
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-22.000000, -3.000000, 13.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-1.500000, -1.500000, -1.500000)
+hitboxmax:vec3(1.500000, 1.500000, 1.500000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(1.500000, 1.500000, 1.500000)
+scale:vec3(1.500000, 1.500000, 1.500000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/wood.DDS
+modelmat:mat4x4((1.500000, 0.000000, 0.000000, 0.000000), (0.000000, 1.500000, 0.000000, 0.000000), (0.000000, 0.000000, 1.500000, 0.000000), (-22.000000, -3.000000, 13.000000, 1.000000))
+hitboxoverride:0
+iscollider:1
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-16.000000, -3.000000, 13.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-1.500000, -1.500000, -1.500000)
+hitboxmax:vec3(1.500000, 1.500000, 1.500000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(1.500000, 1.500000, 1.500000)
+scale:vec3(1.500000, 1.500000, 1.500000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/wood.DDS
+modelmat:mat4x4((1.500000, 0.000000, 0.000000, 0.000000), (0.000000, 1.500000, 0.000000, 0.000000), (0.000000, 0.000000, 1.500000, 0.000000), (-16.000000, -3.000000, 13.000000, 1.000000))
+hitboxoverride:0
+iscollider:1
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-19.000000, -3.000000, 13.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-1.500000, -1.500000, -1.500000)
+hitboxmax:vec3(1.500000, 1.500000, 1.500000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(1.500000, 1.500000, 1.500000)
+scale:vec3(1.500000, 1.500000, 1.500000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/wood.DDS
+modelmat:mat4x4((1.500000, 0.000000, 0.000000, 0.000000), (0.000000, 1.500000, 0.000000, 0.000000), (0.000000, 0.000000, 1.500000, 0.000000), (-19.000000, -3.000000, 13.000000, 1.000000))
+hitboxoverride:0
+iscollider:1
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-19.000000, 0.000000, 13.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-1.500000, -1.500000, -1.500000)
+hitboxmax:vec3(1.500000, 1.500000, 1.500000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(1.500000, 1.500000, 1.500000)
+scale:vec3(1.500000, 1.500000, 1.500000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/wood.DDS
+modelmat:mat4x4((1.500000, 0.000000, 0.000000, 0.000000), (0.000000, 1.500000, 0.000000, 0.000000), (0.000000, 0.000000, 1.500000, 0.000000), (-19.000000, 0.000000, 13.000000, 1.000000))
+hitboxoverride:0
+iscollider:1
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-22.000000, 3.000000, 13.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-1.500000, -1.500000, -1.500000)
+hitboxmax:vec3(1.500000, 1.500000, 1.500000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(1.500000, 1.500000, 1.500000)
+scale:vec3(1.500000, 1.500000, 1.500000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/wood.DDS
+modelmat:mat4x4((1.500000, 0.000000, 0.000000, 0.000000), (0.000000, 1.500000, 0.000000, 0.000000), (0.000000, 0.000000, 1.500000, 0.000000), (-22.000000, 3.000000, 13.000000, 1.000000))
+hitboxoverride:0
+iscollider:1
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
+name:
+position:vec3(-22.000000, 0.000000, 13.000000)
+rotationaxis:vec3(0.000000, 1.000000, 0.000000)
+angle:0
+hitboxmin:vec3(-1.500000, -1.500000, -1.500000)
+hitboxmax:vec3(1.500000, 1.500000, 1.500000)
+hitboxoffset:vec3(0.000000, 0.000000, 0.000000)
+hitboxscale:vec3(1.500000, 1.500000, 1.500000)
+scale:vec3(1.500000, 1.500000, 1.500000)
+model:models/cube.txt
+vshader:shaders/SimpleVertexShader.vertexshader
+fshader:shaders/SimpleFragmentShader.fragmentshader
+texture:textures/wood.DDS
+modelmat:mat4x4((1.500000, 0.000000, 0.000000, 0.000000), (0.000000, 1.500000, 0.000000, 0.000000), (0.000000, 0.000000, 1.500000, 0.000000), (-22.000000, 0.000000, 13.000000, 1.000000))
+hitboxoverride:0
+iscollider:1
+light:0
+lightcolor:vec3(0.000000, 0.000000, 0.000000)
+power:0
+END
